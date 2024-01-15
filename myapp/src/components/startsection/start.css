@@ -1,0 +1,79 @@
+.myworkout{
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:0.1em solid #ffffff;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    font-size: 30px;
+    color:#ffffff;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color:#000000;
+    text-align:center;
+    transition: all 0.15s;
+    position: relative;
+    top: -122px;
+    left: 150px;
+}
+.myworkout:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+    .myworkout{
+        display:block;
+        margin:0.4em auto;
+    }
+}
+h1{
+    font-family:'Copperplate',sans-serif;
+    font-weight: 3000;
+    font-size: 50px;
+    color:#ffffff;
+    position: relative;
+    bottom: 200px;
+    left: 150px;
+}
+
+h3{
+    font-family:'Copperplate',sans-serif;
+    font-weight:300;
+    font-size: 30px;
+    color:#ffffff;
+    position: relative;
+    bottom: 200px;
+    left: 150px;
+}
+
+.start-container{
+    background: url('../../assets/images/m.jpg');
+    object-fit: contain;
+    background-size: cover;
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    margin-top: 0px;
+    height: 898px;
+    width: 100%;
+}
+
+.start-container::before{
+    margin-top: 0px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 978px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+  
+
+

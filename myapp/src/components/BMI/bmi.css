@@ -1,0 +1,16 @@
+/* card css style */
+.bmi--card{
+    padding: 1rem;
+    border-radius: 10px;
+    width: 550px;
+    min-height: 0px;
+    color: #000000;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-center;
+    position: relative;
+    left: 20px;
+    top: 0px;
+}
